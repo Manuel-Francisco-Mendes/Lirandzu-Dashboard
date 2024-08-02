@@ -1,0 +1,26 @@
+.search-container{
+    display: flex;
+    gap: 2px;
+    height: 100%;
+    align-items: center;
+}
+
+.search-container input{
+    font-size: 1.3em;
+    border: none;
+    color: #727171;
+}
+
+.search-container svg{
+    font-size: 2em;
+    color: #A7A7A7;
+}
+
+.search-container input::placeholder{
+    color: #A7A7A7;
+}
+
+.search-container input:focus{
+    outline: none;
+}
+

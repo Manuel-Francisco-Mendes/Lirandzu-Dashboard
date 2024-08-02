@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+.profile_area{
+    padding: 23px 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+.profile_area .profile_name{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_area .user_name{
+    font-weight: 700;
+    line-height: 27.2px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.user_role{
+    color: #A4A4A4;
+    font-size: 13px;
+    line-height: 15.64px;
+}
+
+.sidebar_footer{
+    width: 273px;
+    height: 350px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: solid 1px #E0E0E0;
+}
+
+.active{
+    background-color: #F8F8F8;
+    color: #F91F49 !important;
+}
+
+.active a, .active svg{
+    color: #F91F49 !important;
+}
+
