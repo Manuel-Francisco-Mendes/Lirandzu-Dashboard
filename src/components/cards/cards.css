@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+
+.top-card__dashboard {
+    border: 2px solid rgba(236, 238, 246, 1);
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+.top-card__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24.18px; 
+    margin-bottom: 10px;  
+}
+
+.top-card__statistic{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42.31px;   
+}
+
+.top-card__subtitle{
+    font-weight: 400;
+    color: rgba(148, 148, 148, 1);
+    font-size: 14px;
+    line-height: 18.84px;   
+}
