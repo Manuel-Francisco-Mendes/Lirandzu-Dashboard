@@ -28,7 +28,7 @@
 
 .sidebar_footer{
     width: 273px;
-    height: 350px;
+    height: 150px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -42,5 +42,6 @@
 
 .active a, .active svg{
     color: #F91F49 !important;
+    font-weight: bold;
 }
 
