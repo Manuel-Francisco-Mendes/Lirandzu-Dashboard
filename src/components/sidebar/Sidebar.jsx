@@ -26,14 +26,14 @@ const Sidebar = () => {
             </div>
             <ul>
                 <li className={currentRoute === "dashboard" ? "active" : ""}><DashboardIcon /> <Link to={"/dashboard"}>Dashboard</Link></li>
-                <li className={currentRoute === "users" ? "active" : ""}><GroupIcon /> <Link to={"/users"}>Usuários</Link></li>
-                <li className={currentRoute === "payments" ? "active" : ""}><PaymentIcon /> <Link to={"/payments"}>Pagamentos</Link></li>
-                <li className={currentRoute === "complain" ? "active" : ""}><DateRangeIcon /> <Link to={"/complain"}>Reclamação</Link></li>
+                <li className={currentRoute === "users" ? "active" : ""}> <Link to={"/users"}><GroupIcon /> Usuários</Link></li>
+                <li className={currentRoute === "payments" ? "active" : ""}> <Link to={"/payments"}><PaymentIcon /> Pagamentos</Link></li>
+                <li className={currentRoute === "complain" ? "active" : ""}> <Link to={"/complain"}><DateRangeIcon /> Reclamação</Link></li>
             </ul>
             <div className='sidebar_footer'>
                 <ul>
-                    <li className={currentRoute === "profile" ? "active" : ""}><PersonIcon /> <Link to={"/profile"}>Perfil</Link></li>
-                    <li className={currentRoute === "settings" ? "active" : ""}><SettingsIcon /> <Link to={"/settings"}>Definicoes</Link></li>
+                    <li className={currentRoute === "profile" ? "active" : ""}> <Link to={"/profile"}><PersonIcon /> Perfil</Link></li>
+                    <li className={currentRoute === "settings" ? "active" : ""}> <Link to={"/settings"}><SettingsIcon />Definicoes</Link></li>
                 </ul>
             </div>
         </nav>
