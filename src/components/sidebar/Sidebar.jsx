@@ -25,7 +25,7 @@ const Sidebar = () => {
                 </div>
             </div>
             <ul>
-                <li className={currentRoute === "dashboard" ? "active" : ""}><DashboardIcon /> <Link to={"/dashboard"}>Dashboard</Link></li>
+                <li className={currentRoute === "dashboard" ? "active" : ""}> <Link to={"/dashboard"}><DashboardIcon /> Dashboard</Link></li>
                 <li className={currentRoute === "users" ? "active" : ""}> <Link to={"/users"}><GroupIcon /> Usuários</Link></li>
                 <li className={currentRoute === "payments" ? "active" : ""}> <Link to={"/payments"}><PaymentIcon /> Pagamentos</Link></li>
                 <li className={currentRoute === "complain" ? "active" : ""}> <Link to={"/complain"}><DateRangeIcon /> Reclamação</Link></li>
